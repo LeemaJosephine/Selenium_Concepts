@@ -14,7 +14,7 @@ public class WriteOperation {
 	public static void main(String[] args) throws FileNotFoundException, IOException {
 		
 		XSSFWorkbook book = new XSSFWorkbook();
-		XSSFSheet sheet = book.createSheet();
+		XSSFSheet sheet = book.createSheet("sheet1");
 		
 		Object[][] data = {
 				
